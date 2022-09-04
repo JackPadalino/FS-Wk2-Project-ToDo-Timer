@@ -1,12 +1,16 @@
 body{
-    background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(183, 0, 255));
-    /*
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    */
+    background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(187, 0, 255));
     min-height: 100vh;
+    align-items: center    display: flex;
+    justify-content: center;
+}
+
+#mainContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top:200px;
 }
 
 /*~~~~~~~~~~CSS for to do list~~~~~~~~~~*/
@@ -19,11 +23,11 @@ h1,h2,h3,h4,h5,p,button,input{
 #toDoContainer{
     display:flex;
     flex-direction: column;
-    width:fit-content;
     gap:10px;
     border:2px solid white;
     padding:20px;
     border-radius: 10px;
+    height:fit-content;
 }
 
 #inputButtonContainer{
@@ -40,7 +44,6 @@ h1,h2,h3,h4,h5,p,button,input{
 
 .newTask{
     cursor: pointer;
-    max-width: c;
 }
 
 .done{
@@ -53,9 +56,50 @@ button,input{
     border-radius: 3px;
 }
 
-input{
+.toDoInput{
     width:300px;
     
 }
 
 /*~~~~~~~~~~CSS for timer~~~~~~~~~~*/
+#timerContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    border:2px solid white;
+    padding:20px;
+    border-radius: 10px;
+    height:fit-content;
+}
+
+#timerTitle{
+    text-align: center;
+}
+
+#timeNow{
+    text-align: center;
+}
+
+#timerInputContainer{
+    display:flex;
+    justify-content:center;
+}
+
+#buttonContainer{
+    display:flex;
+    justify-content: center;
+}
+
+.timerInput{
+    width:100px;
+    border-radius: 3px;
+}
+
+.hidden{
+    display:none;
+}
+
+.shown{
+    display:block;
+}
