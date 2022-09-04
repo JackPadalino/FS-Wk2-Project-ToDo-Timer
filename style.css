@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(183, 0, 255));
+    /*
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    */
+    min-height: 100vh;
+}
+
+/*~~~~~~~~~~CSS for to do list~~~~~~~~~~*/
+h1,h2,h3,h4,h5,p,button,input{
+    font-family: 'Candal';
+    color:white;
+    margin:0px;
+}
+
+#toDoContainer{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    gap:10px;
+    border:2px solid white;
+    padding:20px;
+    border-radius: 10px;
+}
+
+#inputButtonContainer{
+    display:flex;
+    justify-content: row;
+    gap:5px;
+}
+
+#taskContainer{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.newTask{
+    cursor: pointer;
+    max-width: c;
+}
+
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+button,input{
+    color:black;
+    border-radius: 3px;
+}
+
+input{
+    width:300px;
+    
+}
+
+/*~~~~~~~~~~CSS for timer~~~~~~~~~~*/
