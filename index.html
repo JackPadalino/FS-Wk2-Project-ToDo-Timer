@@ -11,17 +11,30 @@
 </head>
 <body>
     <div id="mainContainer">
+        <!--to do list-->
         <div id="toDoContainer">
-            <h1 id="title">To-Do List</h1>
+            <h1 id="toDoTitle">To Do List</h1>
+            <p id="reminderMessage">* Click on tasks as you complete them!</p>
             <div id="inputButtonContainer">
-                <input type="text" id="taskInput" placeholder="Task">
+                <input type="text" class="toDoInput" id="taskInput" placeholder="Task">
                 <button id="addTaskButton">Add to list</button>
                 <button id="clearListButton">Clear list</button>
             </div>
             <div id="taskContainer"></div>
         </div>
+        <!--timer-->
         <div id="timerContainer">
-            <h1 id="title">Focus Timer</h1>
+            <h1 id="timerTitle">Set a Timer</h1>
+            <div id="timerInputContainer">
+                <input type="number" class="timerInput" id="hoursInput" placeholder="Hours">
+                <input type="number" class="timerInput" id="minutesInput" placeholder="Minutes">
+            </div>
+            <h1 id="timeNow"><span id="hoursLeft">00</span>:<span id="minutesLeft">00</span>:<span id="secondsLeft">00</span></h1>
+            <div id="buttonContainer">
+                <button id="startButton">Start</button>
+                <button id="pauseButton">Pause</button>
+                <button id="resetButton">Reset</button>
+            </div>
         </div>
     </div>
 </body>
