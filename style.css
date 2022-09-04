@@ -1,7 +1,7 @@
 body{
     background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(187, 0, 255));
     min-height: 100vh;
-    align-items: center    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
