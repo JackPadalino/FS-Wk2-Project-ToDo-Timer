@@ -1,17 +1,17 @@
 body{
     /*background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(187, 0, 255));*/
     background-color: rgb(255, 89, 0);
-    min-height: 100vh;
-    align-items: center;
+    display:flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 #mainContainer{
     display:flex;
-    flex-direction: row;
     justify-content: center;
+    margin-top:100px;
     column-gap: 20px;
-    margin-top:200px;
+    width: fit-content;
 }
 
 /*~~~~~~~~~~CSS for to do list~~~~~~~~~~*/
@@ -111,16 +111,13 @@ button,input{
 }
 
 /*~~~~~CSS for mobile view~~~~~*/
-@media (max-width: 640px){
+@media (max-width: 700px){
     body{
         background-color: rgb(187, 0, 255);
+        align-items: center;
     }
     #mainContainer{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 20px;
-        margin-top:200px;
+        margin-top:0px;
     }
     #toDoContainer{
         display:flex;
@@ -141,6 +138,8 @@ button,input{
     #inputButtonContainer{
         display:flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap:5px;
     }
     #timerContainer{
