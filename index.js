@@ -39,7 +39,7 @@ let isPaused=false;
 
 const timerTitle=document.getElementById('timerTitle');
 const timerInputContainer=document.getElementById('timerInputContainer');
-const timeContainer=document.getElementById('timeContainer');
+//const timeContainer=document.getElementById('timeContainer');
 const timeNow=document.getElementById('timeNow');
 const hoursInput=document.getElementById('hoursInput');
 const minutesInput=document.getElementById('minutesInput');
