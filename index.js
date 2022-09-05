@@ -1,4 +1,4 @@
-/*~~~~~~~~~~JS for to do list~~~~~~~~~~*/
+/*~~~~~JS for to do list~~~~~*/
 const taskInput=document.getElementById('taskInput');
 const addTaskButton=document.getElementById('addTaskButton');
 const taskContainer=document.getElementById('taskContainer');
@@ -29,7 +29,7 @@ clearListButton.addEventListener('click',function(){
     reminderMessage.classList.add('hidden');
 });
 
-/*~~~~~~~~~~JS for timer~~~~~~~~~~*/
+/*~~~~~JS for timer~~~~~*/
 let startHours;
 let startMinutes;
 let startSeconds;
