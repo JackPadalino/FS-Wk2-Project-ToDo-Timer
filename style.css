@@ -1,6 +1,5 @@
 body{
-    /*background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(187, 0, 255));*/
-    background-color: rgb(255, 89, 0);
+    background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(187, 0, 255));
     display:flex;
     justify-content: center;
     min-height: 100vh;
@@ -113,7 +112,6 @@ button,input{
 /*~~~~~CSS for mobile view~~~~~*/
 @media (max-width: 700px){
     body{
-        background-color: rgb(187, 0, 255);
         align-items: center;
     }
     #mainContainer{
