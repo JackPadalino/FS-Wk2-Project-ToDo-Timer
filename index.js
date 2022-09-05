@@ -8,7 +8,7 @@ const reminderMessage=document.getElementById('reminderMessage');
 reminderMessage.classList.add('hidden');
 
 addTaskButton.addEventListener('click',function(){
-    let newTask=taskInput.value;
+    const newTask=taskInput.value;
     if(newTask){
         const newListItem=document.createElement('p');
         newListItem.classList.add('newTask');
