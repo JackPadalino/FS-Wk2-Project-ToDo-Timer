@@ -5,8 +5,6 @@ const taskContainer=document.getElementById('taskContainer');
 const clearListButton=document.getElementById('clearListButton');
 const reminderMessage=document.getElementById('reminderMessage');
 
-reminderMessage.classList.add('hidden');
-
 addTaskButton.addEventListener('click',function(){
     const newTask=taskInput.value;
     if(newTask){
