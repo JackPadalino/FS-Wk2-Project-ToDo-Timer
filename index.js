@@ -101,11 +101,18 @@ function countDown(){
         setDisplayTime(hours,hoursLeft); 
         setDisplayTime(minutes,minutesLeft);
         setDisplayTime(seconds,secondsLeft);
+        /*
+        if(totalSeconds<=10){
+            setInterval(()=>{
+                timeNow.toggle('hidden');
+            },500);
+        }
+        */
         if(totalSeconds<0){
             finishMessage();
         };
         totalSeconds-=1;
-    },1000);
+    },125);
 };
 
 startButton.addEventListener('click',function(){

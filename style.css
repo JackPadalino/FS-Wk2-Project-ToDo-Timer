@@ -1,7 +1,7 @@
 body{
     background-image: linear-gradient(to bottom right, rgb(255, 89, 0), rgb(187, 0, 255));
-    display:flex;
-    justify-content: center;
+    /*display:flex;
+    justify-content: center;*/
     min-height: 100vh;
 }
 
@@ -11,6 +11,8 @@ body{
     margin-top:100px;
     column-gap: 20px;
     width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /*~~~~~~~~~~CSS for to do list~~~~~~~~~~*/
@@ -27,7 +29,19 @@ h1,h2,h3,h4,h5,p,button,input{
     border:2px solid white;
     padding:20px;
     border-radius: 10px;
-    height:fit-content;
+    min-height:150px;
+}
+
+#timerContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    border:2px solid white;
+    padding:20px;
+    border-radius: 10px;
+    height:150px;
+    width:250px;
 }
 
 #inputButtonContainer{
@@ -43,8 +57,8 @@ h1,h2,h3,h4,h5,p,button,input{
 
 #taskContainer{
     display:flex;
-    flex-direction: column;
-    gap:10px;
+    flex-direction:column;
+    gap:5px;
 }
 
 .newTask{
@@ -75,7 +89,8 @@ button,input{
     border:2px solid white;
     padding:20px;
     border-radius: 10px;
-    height:fit-content;
+    height:150px;
+    width:250px;
 }
 
 #timerTitle{
