@@ -110,7 +110,7 @@ function countDown(){
             finishMessage();
         };
         totalSeconds-=1;
-    },125);
+    },1000);
 };
 
 startButton.addEventListener('click',function(){
